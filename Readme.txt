@@ -1,18 +1,41 @@
-How to run the Online Fire Reporting System Project using PHP and MySQL
-1. Download the project zip file
+# Online Fire Reporting System
 
-2. Extract the file and copy ofrs folder
+This is an Online Fire Reporting System Project developed using PHP and MySQL. The system allows users to report fire incidents online, helping in efficient tracking and quick responses from the authorities.
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/Html)
+## Features
 
-4.Open PHPMyAdmin (http://localhost/phpmyadmin)
+- Users can report fire incidents with necessary details.
+- Admin can view and manage reported incidents.
+- Admin panel for managing user data and reported incidents.
 
-5. Create a database with the name  ofrsdb
+## How to Run the Project
 
-6. Import ofrsdb.sql file(given inside the zip package in SQL file folder)
+### 1. Download the Project Zip File
+Download the project zip file from the repository.
 
-7. Run the script http://localhost/ofrs
+### 2. Extract the File and Copy the `ofrs` Folder
+Once you have downloaded the zip file, extract it and copy the `ofrs` folder.
 
-Admin Credential
-Username: admin
-Password: Test@123
+### 3. Paste Inside the Root Directory
+- For XAMPP, paste the folder inside `xampp/htdocs`.
+- For WAMP, paste the folder inside `wamp/www`.
+- For LAMP, paste the folder inside `var/www/html`.
+
+### 4. Open PHPMyAdmin
+Open PHPMyAdmin by visiting the following URL:
+[http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+
+### 5. Create a Database
+In PHPMyAdmin, create a database with the name `ofrsdb`.
+
+### 6. Import the SQL File
+After creating the database, import the `ofrsdb.sql` file. You can find this file inside the `SQL file` folder in the project zip package.
+
+### 7. Run the Script
+Finally, run the script by visiting the following URL in your browser:
+
+[http://localhost/ofrs](http://localhost/ofrs)
+
+### Admin Credentials
+- **Username**: admin
+- **Password**: Test@123
